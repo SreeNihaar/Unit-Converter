@@ -1,0 +1,70 @@
+html{
+  margin: 0;
+  padding: 0;
+  width :100%;
+  height: 100%;
+}
+
+body{
+  background-color: skyblue;
+  font-family: "Handlee";
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width :100%;
+  height: 100%;
+}
+
+#root{
+  width :100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#container{
+  border: 3px solid black;
+  width: 25%;
+  min-height: fit-content;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+#heading{
+  font-family: "Handlee";
+  font-weight: bold;
+  font-size:36px;
+  text-align: left;
+}
+.listitems{
+  width: fit-content;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#list{
+  display: flex;
+  gap: 10px;
+  justify-content:space-evenly;
+  flex-direction: row;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.listitems.active{
+  color: red;
+  text-decoration: underline;
+}
+
+

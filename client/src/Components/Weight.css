@@ -1,0 +1,25 @@
+.Weight{
+    font-size: 20px;
+}
+
+#fromUnit, #toUnit, #value{
+    font-family: "Handlee";
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 75%;
+}
+
+#submitBtn, #resetBtn{
+    font-family: "Handlee";
+    font-size: 17px;
+    background:transparent;
+    cursor: pointer;
+    width: 25%;
+    padding: 12px 0;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
