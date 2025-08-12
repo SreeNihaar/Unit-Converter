@@ -16,7 +16,7 @@ function Weight(){
 
     function handleSubmit(e){
         e.preventDefault();
-        axios.get(`http://localhost:5000/api/weight/convert?value=${value}&fromUnit=${fromUnit}&toUnit=${toUnit}`)
+        axios.get(`https://sreenihaar-unit-converter.onrender.com/api/weight/convert?value=${value}&fromUnit=${fromUnit}&toUnit=${toUnit}`)
             .then((res)=>{
                 console.log(res);
                 setResultDiv(
