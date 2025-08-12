@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use(express.urlencoded({extended: false}));
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const length_metrics={
     meter: 1,
